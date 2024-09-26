@@ -1,0 +1,63 @@
+
+.Terms_Script_Section {
+    height: auto;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.Terms_Script {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.Terms_Script > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+}
+
+.Terms_Script > h1 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #111111;
+}
+
+.Terms_Script > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111;
+}
+
+.Terms_Script > h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111111;
+}
+
+.Terms_Script > h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #111111;
+}
+
+.Terms_Script > ul > li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+}
+
+.Terms_Script > span {
+    font-size: 10px;
+    font-weight: 600;
+    color: #111111;
+}
+
+.number-style {
+    color: #111111;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 6px;
+}

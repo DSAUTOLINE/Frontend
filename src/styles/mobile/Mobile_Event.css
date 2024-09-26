@@ -1,0 +1,293 @@
+.mobile_event_eventListSection {
+    width: 90%;
+    min-height: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.mobile_event_eventListSection > h3 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.mobile_event_eventListSection > p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.mobile_event_eventListSection > button {
+    width: 50%;
+    height: 34px;
+    border: 1px solid #bbb;
+    background-color: white;
+    color: #767676;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.mobile_event_eventListSection > button.selected {
+    border: none;
+    background-color: #0064FF;
+    color: white;
+}
+
+.mobile_eventPageCard {
+    width: 100%;
+    position: relative;
+}
+
+.mobile_eventPageCard > img {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #c4c4c4;
+    cursor: pointer;
+}
+
+.mobile_eventPageCard > h4 {
+    margin: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111;
+}
+
+.mobile_eventPageCard > p {
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #AEAEAE;
+}
+
+.mobile_eventPageCard > span {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.mobile_eventPageCard > span > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile_eventPageCard > span > span > p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.mobile_eventPageCard > span > img {
+    width: 100%;
+}
+
+.mobile_eventPageCard > div {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    background-color: #0064FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.mobile_eventPageCard > div > p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+}
+
+.mobile_eventPageCard > div > span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+
+
+
+
+.mobile_eventMore_contentSection {
+    width: 100%;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    min-height: 600px;
+    position: relative;
+}
+
+.mobile_eventMore_contentSection > h3 {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.mobile_eventMore_contentSection > p {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.mobile_eventMore_contentSection > span > img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.mobile_eventMore_contentSection > button {
+    display: block;
+    width: 90%;
+    height: 35px;
+    border-radius: 40px;
+    border: none;
+    background-color: #0064FF;
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+
+
+.mobile_eventMore_sticky {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.mobile_eventMore_sticky > span {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+
+.mobile_eventDetailPage_FastFAQ {
+    position: sticky;
+    position: -webkit-sticky;
+    top: calc(100% - 110px);
+    width: 100%;
+    min-height: 86px;
+    border: 1px solid #0064FF;
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    flex-direction: column;
+    padding: 6px;
+}
+
+.mobile_eventDetailPage_FastFAQ > img {
+    width: 51px;
+    height: 11px;
+}
+
+.mobile_eventDetailPage_FastFAQ > span:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.mobile_eventDetailPage_FastFAQ > span > h4 {
+    margin: 0;
+    margin-right: 9px;
+    color: #111;
+    font-size: 11px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.mobile_eventDetailPage_FastFAQ > span > input:nth-of-type(1){
+    width: 77px;
+    height: 23px;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+    margin-right: 13px;
+}
+
+.mobile_eventDetailPage_FastFAQ > span > input:nth-of-type(2){
+    width: 45%;
+    height: 23px;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+}
+
+
+.mobile_eventDetailPage_FastFAQ > span:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.mobile_eventDetailPage_FastFAQ > span:nth-of-type(2) > img {
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+.mobile_eventDetailPage_FastFAQ > span:nth-of-type(2) > p {
+    margin: 0;
+    font-size: 7px;
+    font-weight: 400;
+    margin-right: 11px;
+    white-space: nowrap;
+}
+
+.mobile_eventDetailPage_FastFAQ > span:nth-of-type(2) > p > span:nth-of-type(1) {
+    color: #0064FF;
+}
+
+.mobile_eventDetailPage_FastFAQ > span:nth-of-type(2) > p > span:nth-of-type(2) {
+    cursor: pointer;
+}
+
+.mobile_eventDetailPage_FastFAQ > span:nth-of-type(2) > button {
+    min-width: 59px;
+    max-width: 59px;
+    height: 17px;
+    background-color: #0064FF;
+    border: none;
+    color: white;
+    border-radius: 9px;
+    font-size: 7px;
+    margin-left: auto;
+    margin-right: 6px;
+    white-space: nowrap;
+}

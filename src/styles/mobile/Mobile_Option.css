@@ -1,0 +1,431 @@
+.mobile_option_fixedSection {
+    width: 100%;
+    height: 76px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -10px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.mobile_option_fixedSection > span {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.mobile_option_fixedSection > span > img {
+    display: block;
+    width: 70px;
+    margin-right: 8px;
+}
+
+.mobile_option_fixedSection > span > span {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile_option_fixedSection > span > span > p {
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+.mobile_option_fixedSection > span > span > h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #111;
+}
+
+.mobile_option_fixedSection > span > p {
+    margin: 0;
+    margin-left: auto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #767676;
+    white-space: pre-wrap;
+    cursor: pointer;
+}
+
+.mobile_option_InfoSection {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mobile_option_InfoSection > h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.mobile_option_InfoSection > span:nth-of-type(1) {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.mobile_option_InfoSection > span:nth-of-type(1) > img {
+    width: 41px;
+    margin-right: 9px;
+}
+
+.mobile_option_InfoSection > span:nth-of-type(1) > h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #111;
+}
+
+.mobile_option_InfoSection > p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #767676;
+    margin-bottom: 8px;
+}
+
+.mobile_option_InfoSection > img {
+    width: 100%;
+}
+
+.mobile_option_colorSection {
+    width: 90%;
+    margin: auto;
+}
+
+.mobile_option_colorSection > span {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    /* IE와 Edge에서 스크롤바 숨기기 */
+    scrollbar-width: none;
+    /* Firefox에서 스크롤바 숨기기 */
+}
+
+/* 웹킷 브라우저에서 스크롤바 숨기기 */
+.mobile_option_colorSection > span::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile_option_colorSection > span > h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.mobile_option_colorSection > span > p {
+    margin: 0;
+    margin-left: auto;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+}
+
+.mobile_option_colorSection > span > span {
+    min-width: 48px;
+    min-height: 48px;
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.mobile_option_colorBtn.selected {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #0064FF;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mobile_option_colorBtn.selected > img {
+    width: 25px;
+    height: 25px;
+}
+
+.mobile_option_colorSection > p {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #767676;
+}
+
+
+.mobile_option_trimSection {
+    width: 90%;
+    margin: auto;
+    margin-top: 49px;
+}
+
+.mobile_option_trimSection > h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.mobile_option_trimSection > button {
+    width: 50%;
+    height: 34px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #BBB;
+    color: #767676;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.mobile_option_trimSection > button:nth-of-type(2) {
+    border-left: none;
+}
+
+.mobile_option_trimSection > button.selected {
+    background-color: #111;
+    border: none;
+    color: white;
+}
+
+.mobile_option_trimSection > span {
+    width: 100%;
+}
+
+.mobile_option_trimSection > span > span {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #BBB;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.mobile_option_trimSection > span > span.selected {
+    border: 1px solid #0064FF;
+}
+
+.mobile_option_trimSection > span > span.selected > p {
+    color: #0064FF;
+}
+
+.mobile_option_trimSection > span > span >  img {
+    width: 18px;
+    height: 18px;
+    margin-right: 11px;
+}
+
+.mobile_option_trimSection > span > span > p {
+    margin: 0;
+    font-weight: 14px;
+    font-weight: 500;
+    color: #767676;
+}
+
+
+
+
+
+
+
+.mobile_option_optionSection {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mobile_option_optionSection > h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.mobile_option_optionSelectDiv {
+    width: 100%;
+}
+
+.mobile_option_optionSelectDiv > div {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #BBB;
+    border-radius: 8px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.mobile_option_optionSelectDiv > div.selected {
+    border: 1px solid #0064FF;
+}
+
+.mobile_option_optionSelectDiv > div > p {
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.mobile_option_optionSelectDiv > div > h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+}
+
+
+
+
+
+.mobile_option_selectedSection {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.mobile_option_selectedSection > h3 {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.mobile_option_selectedSection > h4 {
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #111;
+}
+
+.mobile_option_selectedSection > span {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    /* IE와 Edge에서 스크롤바 숨기기 */
+    scrollbar-width: none;
+    /* Firefox에서 스크롤바 숨기기 */
+}
+
+/* 웹킷 브라우저에서 스크롤바 숨기기 */
+.mobile_option_selectedSection > span::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile_option_selectedSection > span > p {
+    margin: 0;
+    margin-bottom: 20px;
+    min-width: 85px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #767676;
+    border: 1px solid #BBB;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mobile_option_selectedSection > span > p.selected {
+    color: #0064FF;
+    border: 1px solid #0064FF;
+}
+
+.mobile_option_selectedSection > span > input {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #BBB;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile_option_selectedSection > div {
+    width: 100%;
+}
+
+.mobile_option_selectedSection > div > span > span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.mobile_option_selectedSection > div > span > span > img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.mobile_option_selectedSection > div > span > span > p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #111;
+}
+
+.mobile_option_selectedSection > div > span > span > p > span {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+    cursor: pointer;
+}
+
+.mobile_option_nextBtn {
+    width: 100%;
+    height: 40px;
+    background-color: #0064FF;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.mobile_option_nonNextBtn {
+    width: 100%;
+    height: 40px;
+    background-color: #dbdbdb;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 60px;
+}

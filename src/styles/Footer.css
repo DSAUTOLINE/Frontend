@@ -1,0 +1,129 @@
+body {
+  
+}
+
+.footerSection {
+  height: 370px;
+  background-color: #3d3d3d;
+}
+
+.footerSection > div:nth-of-type(1) {
+  width: 100wv;
+  height: 58px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #767676;
+}
+
+.footerSection > div:nth-of-type(1) > span {
+  min-width: 1280px;
+  max-width: 1280px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footerSection > div:nth-of-type(1) > span > p {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  margin-right: 28px;
+  cursor: pointer;
+}
+
+.footerSection > div:nth-of-type(1) > span > span {
+  height: 30%;
+  width: 1px;
+  border-right: 1px solid #767676;
+  margin-right: 28px;
+}
+
+
+
+.footerSection > div:nth-of-type(2) {
+  display: flex;
+  width: 100wv;
+  margin: auto;
+  height: 254px;
+  border-bottom: 1px solid #767676;
+}
+
+
+.footerSection > div:nth-of-type(2) > span {
+  min-width: 1280px;
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerSection > div:nth-of-type(2) > span > img {
+  width: 117px;
+  height: 27px;
+}
+
+.footerSection > div:nth-of-type(2) > span > span {
+  margin-left: 41px;
+}
+
+.footerSection > div:nth-of-type(2) > span > span > h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.footerSection > div:nth-of-type(2) > span > span > p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #dbdbdb;
+  margin: 0;
+  margin-bottom: 8px ;
+  white-space: pre-wrap;
+}
+
+.footerSection > div:nth-of-type(2) > span > div {
+  margin-left: auto;
+}
+
+.footerSection > div:nth-of-type(2) > span > div > span {
+  display: inline-block;
+  width: 51px;
+  height: 51px;
+  margin-left: 12px;
+  border-radius: 100px;
+  background-color: #dbdbdb;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerSection > div:nth-of-type(2) > span > div > span > img {
+  width: 60%;
+  height: 60%;
+}
+
+
+
+
+
+.footerSection > div:nth-of-type(3) {
+  min-width: 1280px;
+  max-width: 1280px;
+  margin: auto;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerSection > div:nth-of-type(3) > p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #dbdbdb;
+}

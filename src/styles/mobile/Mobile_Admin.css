@@ -1,0 +1,202 @@
+.mobile_admin_listSection {
+    padding-top: env(safe-area-inset-top, 20px); /* 기본값을 20px로 설정 */
+    padding-bottom: env(safe-area-inset-bottom, 20px);
+    padding-left: env(safe-area-inset-left, 20px);
+    padding-right: env(safe-area-inset-right, 20px);
+    width: 100%;
+}
+
+.mobile_admin_listSection > button {
+    width: 50%;
+    border: 1px solid #dedede;
+    background-color: transparent;
+    height: 40px;
+    color: #767676;
+    cursor: pointer;
+}
+
+.mobile_admin_listSection > button.selected {
+    border: none;
+    background-color: #0064FF;
+    color: white;
+}
+
+
+.mobile_admin_titleSection {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.mobile_admin_titleSection > h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.mobile_admin_titleSection > h2 > span {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0064FF;
+}
+
+.mobile_admin_titleSection > span {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 16px;
+    -ms-overflow-style: none;
+    /* IE와 Edge에서 스크롤바 숨기기 */
+    scrollbar-width: none;
+    /* Firefox에서 스크롤바 숨기기 */
+}
+
+/* 웹킷 브라우저에서 스크롤바 숨기기 */
+.mobile_admin_titleSection > span::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile_admin_titleSection > span > p {
+    margin: 0;
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+    cursor: pointer;
+}
+
+.mobile_admin_titleSection > span > p.selected {
+    color: #0064FF;
+}
+
+
+.mobile_admin_contentSection {
+    width: 100%;
+    min-height: calc(100vh - 141px);
+    background-color: #F0F2F4;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.mobile_admin_allUser {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.mobile_admin_allUser > span:nth-of-type(1) {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.mobile_admin_allUser > span:nth-of-type(1) > p:nth-of-type(1) {
+    width: 60%;
+}
+
+.mobile_admin_allUser > span:nth-of-type(1) > p:nth-of-type(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.mobile_admin_allUser > span:nth-of-type(1) > p:nth-of-type(3) {
+    width: 20%;
+    text-align: center;
+}
+
+.mobile_admin_allUser > div {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mobile_admin_allUser > div > p:nth-of-type(1) {
+    width: 60%;
+    font-size: 14px;
+    color: #767676;
+}
+
+.mobile_admin_allUser > div > p:nth-of-type(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.mobile_admin_allUser > div > p:nth-of-type(3) {
+    width: 20%;
+    text-align: center;
+}
+
+
+
+.mobile_admin_quickDealUserList {
+    width: 95%;
+    margin: auto;
+}
+
+.mobile_admin_quickDealUserList > span {
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    /* IE와 Edge에서 스크롤바 숨기기 */
+    scrollbar-width: none;
+    /* Firefox에서 스크롤바 숨기기 */
+}
+
+/* 웹킷 브라우저에서 스크롤바 숨기기 */
+.mobile_admin_quickDealUserList > span::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile_admin_quickDealUserList > span > div {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mobile_admin_quickDealUserList > span > div > p {
+    margin: 0;
+}
+
+.mobile_admin_quickDealUserList > span > div > p:nth-of-type(1) {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3d3d3d;
+    margin-bottom: 10px;
+}
+
+.mobile_admin_quickDealUserList > span > div > p:nth-of-type(2) {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+}
+
+.mobile_admin_quickDealUserList > span > div > p:nth-of-type(3) {
+    font-size: 14px;
+    font-weight: 500;
+    color: #767676;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

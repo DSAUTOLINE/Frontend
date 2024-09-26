@@ -1,0 +1,383 @@
+body, html {
+    margin: 0;
+}
+
+.enter_container {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+
+.Enter_VISIONSection {
+    min-width: 1280px;
+    max-width: 1280px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 150px;
+    margin-bottom: 43px;
+}
+
+.Enter_TitleSection > p{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.Enter_HOWSection {
+    min-width: 1280px;
+    max-width: 1280px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 70px;
+    margin-bottom: 43px;
+}
+
+.Enter_HOWSection > p{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.Enter_appliSection {
+    min-width: 1280px;
+    max-width: 1280px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 70px;
+    margin-bottom: 43px;
+}
+
+
+.Enter_WHERESection {
+    min-width: 1280px;
+    max-width: 1280px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 70px;
+    margin-bottom: 43px;
+}
+
+
+.Enter_PROCESSSection {
+    min-width: 1280px;
+    max-width: 1280px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 70px;
+    margin-bottom: 43px;
+}
+
+
+.Enter_LEASESection {
+    min-width: 1280px;
+    max-width: 1280px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 70px;
+    margin-bottom: 43px;
+}
+
+.Enter_LEASESection > p{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.Enter_RENTSection {
+    min-width: 1280px;
+    max-width: 1280px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 70px;
+    margin-bottom: 43px;
+}
+
+.Enter_TitleHead {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 30px;
+}
+
+.Enter_TitleHead > p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 1px;
+    color: #767676;
+}
+
+.Enter_TitleTextSeciton {
+    display: flex;
+    flex-direction: row;
+}
+
+.Enter_TitleText {
+    display: flex;
+    height: auto;
+    align-items: flex-end;
+    gap: 168px;
+    flex-direction: row;
+}
+
+.Enter_TitleText > h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    word-spacing: 1px;
+    color: #111111;
+}
+
+.Enter_TitleText > p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+    color: #3D3D3D;
+}
+
+
+.Enter_bannerSection {
+    min-width: 1280px;
+    max-width: 1280px;
+    min-height: 600px;
+    display: flex;
+    margin: auto;
+    background-color: #d9d9d9;
+    border: 1px solid #ededed;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.Enter_line {
+    margin: auto;
+    min-width: 1280px;
+    max-width: 1280px;
+    margin-top: 70px;
+    border-top: 1px solid #EDEDED;
+}
+
+.Enter_bannerSection > div {
+    min-width: 1280px;
+    max-width: 1280px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.Enter_HOWTextSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+}
+
+.Enter_HOWTextSection > h1 {
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+.Enter_HOWTextSection > p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3D3D3D;
+    word-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.Enter_RENTTextSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.Enter_RENTColumnHead {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Enter_RENTColumnText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.Enter_RENTColumnText > h1 {
+    margin: 0;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+.Enter_RENTColumnText > p {
+    margin: 0;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3D3D3D;
+    word-spacing: 1px;
+}
+
+.Enter_RENTColumnText > h1 span {
+    margin: 0;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 1px;
+    color: #0064FF;
+}
+
+.Enter_RENTColumnHead {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.Enter_Process {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Enter_Process > p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.process-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.process-item > p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.process-icon1 {
+    width: 51px; 
+    height: 38px; 
+    margin-bottom: 43px;
+}
+.process-icon2 {
+    width: 37px; 
+    height: 46px; 
+    margin-bottom: 35px;
+}
+.process-icon3 {
+    width: 35px; 
+    height: 46px; 
+    margin-bottom: 35px;
+}
+.process-icon4 {
+    width: 43px; 
+    height: 41px; 
+    margin-bottom: 40px;
+}
+.process-icon5 {
+    width: 78px; 
+    height: 34px; 
+    margin-bottom: 47px;
+}
+.process-icon6 {
+    width: 59px; 
+    height: 50px; 
+    margin-bottom: 31px;
+}
+.process-icon7 {
+    width: 35px; 
+    height: 7px; 
+    margin-top: 20px;
+}
+
+.Enter_Process > p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+}
+
+.GuideSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+}
+
+.GuideSection > h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    word-spacing: 1px;
+    margin-bottom: 70px;
+}
+
+.GuideMapSection {
+    width:100%;
+    height: 550px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 46px;
+    margin-bottom: 90px;
+}
+
+#map {
+    margin-top: 120px;
+    width: 100%;
+    height: 660px;
+    border-radius: 46px;
+}
+
+.Space {
+    height: 200px;
+}

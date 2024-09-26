@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.reviewAdd_inputSection {
+    min-width: 1280px;
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+
+
+.reviewAdd_inputSection > h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 12px;
+}
+
+.reviewAdd_inputSection > p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #767676;
+    margin-bottom: 40px;
+}
+
+
+.reviewAdd_inputSection > span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.reviewAdd_inputSection > span > h3 {
+    margin: 0;
+    width: 52px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+    margin-right: 46px;
+}
+
+.reviewAdd_inputSection > span > input {
+    margin: 0;
+    width: 276px;
+    height: 37px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.reviewAdd_inputSection > span > span {
+    cursor: pointer;
+}
+
+.reviewAdd_inputSection > span > img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.reviewAdd_inputSection > span > textarea {
+    width: 100%;
+    height: 560px;
+    padding: 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.reviewAdd_inputSection > span:nth-of-type(5) > h3 {
+    align-self: flex-start;
+}
+
+.reviewAdd_inputSection > button {
+    width: 155px;
+    height: 47px;
+    border: none;
+    background-color: #0064FF;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+}

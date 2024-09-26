@@ -1,0 +1,241 @@
+body {
+    
+}
+
+.categorySection {
+    width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+.categorySection>h1 {
+    word-spacing: -0.4rem;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.categorySection>p {
+    font-size: 13px;
+    color: #767676;
+}
+
+.categoryTitleDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.categoryTitleDiv>h3 {
+    width: 111px;
+    height: 43px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #767676;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: 2px solid #dbdbdb;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.categoryTitleDiv>h3.selected {
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #0064FF;
+}
+
+
+
+
+
+.quickCarListSection {
+    width: 1280px;
+    margin: auto;
+}
+
+.quickCarListSection>h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.quickCarListSection>span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #111;
+}
+
+.quickCarListSelectDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.quickCarListSelectDiv>p {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #bbb;
+    font-size: 16px;
+    font-weight: 600;
+    color: #767676;
+    cursor: pointer;
+}
+
+.quickCarListSelectDiv>p.selected {
+    border: 1px solid #0064FF;
+    color: #0064FF;
+}
+
+.quickCarCardListDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.carCard {
+    min-width: 290px;
+    max-width: 290px;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid #f5f5f5;
+}
+
+.carCard:hover {
+    border: 1px solid #0064FF;
+}
+
+.carCard.selected {
+    border: 2px solid #0064FF;
+}
+
+.carCard > div:nth-of-type(1) {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    margin: 0;
+}
+
+.carCard>img {
+    max-width: 100%;
+    height: 227px;
+    transition: all 0.3s ease;
+    background-color: #f5f5f5;
+    margin-bottom: 16px;
+}
+
+.carCard>h2 {
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.carCard>p {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #111;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.carCard>div {
+    width: 90%;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.carCard>div>h3 {
+    margin: 0;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+}
+
+.carCard>div>p {
+    margin: 0;
+    color: #767676;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.carCard > button {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #0064FF;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.carCard > button:hover {
+    background-color: blue;
+}
+
+
+.btnSection {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.nextBtn {
+    width: 210px;
+    height: 51px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0064FF;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nonNextBtn {
+    width: 210px;
+    height: 51px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9FA5AB;
+    border-radius: 12px;
+    color: white;
+}

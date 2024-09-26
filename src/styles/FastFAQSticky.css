@@ -1,0 +1,138 @@
+.mainPage_QuickFAQSection {
+  max-width: 1280px;
+  min-width: 1280px;
+  height: 1px;
+  margin: auto;
+  position: relative;
+}
+
+.mainPage_QuickFAQSection>span {
+  position: absolute;
+  right: -300px;
+  top: 120px;
+}
+
+.mainPage_QuickFAQSection>span>span {
+  position: relative;
+  display: block;
+}
+
+
+.mainPage_QuickFAQSection>span>span>div {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 300px;
+  min-width: 260px;
+  max-width: 260px;
+  height: 370px;
+  background-color: white;
+  border: 1px solid #0064FF;
+  border-radius: 12px;
+  z-index: 900;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.mainPage_QuickFAQSection>span>span>div>img {
+  width: 85px;
+  height: 19px;
+  margin-top: 12px;
+  margin-bottom: 7px;
+}
+
+.mainPage_QuickFAQSection>span>span>div>h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.mainPage_QuickFAQSection>span>span>div>h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #323232;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.mainPage_QuickFAQSection>span>span>div>div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.mainPage_QuickFAQSection>span>span>div>div>h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+  margin: 0;
+  margin-right: 13px;
+  width: 43px;
+  text-align: right;
+}
+
+.mainPage_QuickFAQSection>span>span>div>div>input {
+  width: 160px;
+  height: 33px;
+  border: 1px solid #A9A9A9;
+  outline: none;
+  border-radius: 6px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.mainPage_QuickFAQSection>span>span>div>span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 240px;
+  margin-bottom: 6px;
+}
+
+.mainPage_QuickFAQSection>span>span>div>span>img {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.mainPage_QuickFAQSection>span>span>div>span>p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #7D7D7D;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.mainPage_QuickFAQSection>span>span>div>span>p>span:nth-of-type(1) {
+  font-size: 12px;
+  font-weight: 500;
+  color: #0064FF;
+  margin: 0;
+}
+
+.mainPage_QuickFAQSection>span>span>div>span>p>span:nth-of-type(2) {
+  margin: 0;
+  cursor: pointer;
+}
+
+
+.mainPage_QuickFAQSection>span>span>div>button {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  min-height: 44px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #0064FF;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+}

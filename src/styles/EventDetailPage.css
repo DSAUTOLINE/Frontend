@@ -1,0 +1,212 @@
+.edcontainer{
+    min-width: 1280px;
+    max-width: 1280px;
+    margin:auto;
+}
+
+.DetailTitleSection {
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 40px;
+}
+
+.DetailTitleSection > h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 12px;
+}
+
+.DetailTitleSection > p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #767676;
+    margin-bottom: 12px;
+}
+
+.OptionSection {
+    width: 1280px;
+    height: 86px;
+    margin: auto;
+    align-items: flex-end;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 70px;
+}
+
+.ScriptSection {
+    width: 1280px;
+    margin: auto;
+    padding-bottom: 120px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.ScriptSection > img {
+    width: 1000px;
+}
+
+.ScriptSection > p {
+    margin: 0;
+    padding: 20px;
+}
+
+.ButtonSection {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.backButton {
+    width: 210px;
+    height: 51px;
+    font-size: 18px;
+    color: #767676;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.edcontainer > button {
+    display: block;
+    width: 544px;
+    margin: auto;
+    margin-top: 50px;
+    height: 80px;
+    border: none;
+    border-radius: 46px;
+    background-color: #0064FF;
+    color: white;
+    font-size: 27px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+
+.ScriptSection > span {
+    width: 1280px;
+    height: 100%;
+    position: absolute;
+}
+
+.ScriptSection > span > span {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+
+
+.eventDetailPage_FastFAQ {
+    width: 100%;
+    height: 93px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #0064FF;
+    box-sizing: border-box;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 90vh;
+}
+
+.eventDetailPage_FastFAQ > img {
+    width: 125px;
+    height: 28px;
+    margin-right: 46px;
+}
+
+.eventDetailPage_FastFAQ > p {
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 13px ;
+    white-space: nowrap;
+}
+
+.eventDetailPage_FastFAQ > input:nth-of-type(1) {
+    width: 109px;
+    height: 33px;
+    box-sizing: border-box;
+    border: 1px solid #A9A9A9;
+    border-radius: 6px;
+    padding: 0 10px;
+    margin-right: 19px;
+}
+
+.eventDetailPage_FastFAQ > input:nth-of-type(2) {
+    width: 300px;
+    height: 33px;
+    box-sizing: border-box;
+    border: 1px solid #A9A9A9;
+    border-radius: 6px;
+    padding: 0 10px;
+    margin-right: 59px;
+}
+
+.eventDetailPage_FastFAQ > span:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    margin-right: 34px;
+}
+
+.eventDetailPage_FastFAQ > span:nth-of-type(1) > span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.eventDetailPage_FastFAQ > span:nth-of-type(1) > span:nth-of-type(1) {
+    margin-bottom: 11px;
+}
+
+.eventDetailPage_FastFAQ > span:nth-of-type(1) > span > img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.eventDetailPage_FastFAQ > span:nth-of-type(1) > span > p {
+    color: #7D7D7D;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.eventDetailPage_FastFAQ > span:nth-of-type(1) > span > p > span:nth-of-type(1) {
+    color: #0064FF;
+}
+
+.eventDetailPage_FastFAQ > span:nth-of-type(1) > span > p > span:nth-of-type(2) {
+    cursor: pointer;
+}
+
+.eventDetailPage_FastFAQ > button {
+    width: 117px;
+    height: 35px;
+    border: none;
+    border-radius: 17px;
+    background-color: #0064FF;
+    color: white;
+    cursor: pointer;
+}

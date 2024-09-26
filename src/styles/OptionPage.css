@@ -1,0 +1,550 @@
+body {
+    position: relative;
+}
+
+
+.flexSection {
+    width: 95%;
+    min-width: 1280px;
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoSection {
+    margin-bottom: 100px;
+    margin-right: 50px;
+    width: 500px;
+}
+
+.infoSection>div {
+    position: -webkit-sticky;
+    position: sticky;
+    height: auto;
+    top: -190px;
+}
+
+.infoSection>div>h1 {
+    word-spacing: -0.4rem;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #111;
+}
+
+.infoSection > div > h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.infoSection>div>span {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.infoSection>div>span>img {
+    height: 22px;
+    margin: 0;
+    margin-right: 18px;
+}
+
+.infoSection>div>span>h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+} 
+
+.infoSection>div>span * {
+    margin: 0;
+}
+
+.infoSection>div>img {
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.infoSelectedListDiv {
+    width: 100%;
+    min-height: 54.5px;
+    max-height: 100px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.selectOptionListSpan {
+    display: flex;
+    height: 100px;
+    overflow-y: auto;
+    border-right: 1px solid #ededed;
+}
+
+/* 스크롤바 전체 */
+.selectOptionListSpan::-webkit-scrollbar {
+    width: 10px; /* 너비 */
+}
+
+/* 스크롤바 트랙 */
+.selectOptionListSpan::-webkit-scrollbar-track {
+    background: #00ff0000; /* 배경색 */
+}
+
+/* 스크롤바 핸들 */
+.selectOptionListSpan::-webkit-scrollbar-thumb {
+    background-color: #c4c4c4; /* 색상 */
+    border: 2px solid #f0f0f0; /* 핸들 주위의 여백 */
+}
+
+/* 스크롤바 핸들 호버 시 */
+.selectOptionListSpan::-webkit-scrollbar-thumb:hover {
+    background-color: #b4b4b4; /* 호버 시 색상 */
+}
+
+.infoSelectedListDiv > p {
+    margin: 0;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+    display: flex;
+    align-self: flex-end;
+}
+
+.infoSelectedListDiv > span {
+    margin: 0;
+    gap: 12px;
+    width: 70%;
+}
+
+.infoSelectedListDiv > span > p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #767676;
+}
+
+.infoSection>div>p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #767676;
+    margin-bottom: 16px;
+}
+
+.infoSection>div>.priceTitle {
+    border-top: 1px solid #ededed;
+    padding-top: 40px;
+}
+
+.infoSection>div>.priceTitle>p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #111;
+}
+
+.infoSection>div>.priceTitle>h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #0064FF;
+    margin-left: auto;
+}
+
+.infoSection>div>div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.infoSection>div>div>span {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoSection>div>div>span>span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.infoSection>div>div>span>span>img {
+    cursor: pointer;
+}
+
+.infoSection>div>div>span>span>p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.infoSection>div>div>span>span>p>span {
+    color: #767676;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.infoSection>div>.nextBtn {
+    width: 100%;
+    height: 51px;
+    background-color: #0064FF;
+    margin: 0;
+    margin-top: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.infoSection>div>.nonNextBtn {
+    width: 100%;
+    height: 51px;
+    background-color: #9FA5AB;
+    margin: 0;
+    margin-top: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+
+
+.optionSection {
+    position: relative;
+    width: calc(100% - 550px);
+    margin-top: 110px;
+    margin-bottom: 100px;
+    border-left: 1px solid #ededed;
+    padding-left: 50px;
+}
+
+.optionMarginDiv {
+    width: 95%;
+    height: 100%;
+}
+
+.colorDiv > p {
+    color: #b4b4b4;
+    margin-top: 30px;
+}
+
+.colorDiv>span {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.colorDiv>span>h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+}
+
+.colorDiv>span>p {
+    margin: 0;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #767676;
+}
+
+.colorDiv>span>span {
+    min-width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    border: 1px solid#ededed;
+    border-radius: 4px;
+}
+
+.colorBtn.selected {
+    position: relative;
+    border: 1px solid #0064FF;
+    box-sizing: border-box;
+    min-width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.colorBtn.selected>img {
+    position: absolute;
+    top: -11px;
+    right: -11px;
+}
+
+.optionDiv {
+    margin-top: 100px;
+}
+
+.optionDiv > h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+
+.selectDiv {
+    margin-top: 100px;
+}
+
+.selectDiv > h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+}
+
+.selectDiv>h4 {
+    margin-bottom: 0;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+}
+
+.selectDiv>span {
+    display: flex;
+    flex-direction: row;
+}
+
+.selectDiv>span>p {
+    width: 162px;
+    height: 45px;
+    border-radius: 12px;
+    border: 1px solid #bbbbbb;
+    font-size: 16px;
+    font-weight: 500;
+    color: #767676;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.selectDiv span>p.selected {
+    border: 1px solid #0064FF;
+    color: #0064FF;
+    font-weight: 600;
+}
+
+.selectDiv>span>input {
+    width: 237px;
+    height: 45px;
+    border-radius: 12px;
+    border: 1px solid #bbbbbb;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: #767676;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectDiv>span>input::placeholder {
+    padding-left: 5px;
+}
+
+
+.optionTrimDiv {
+    width: 100%;
+    max-width: 1040px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.optionTrimDiv > span {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+.optionTrimDiv > span.selected {
+    background-color: #111;
+}
+
+.optionTrimDiv > span.selected > p {
+    color: white;
+}
+
+.optionTrimDiv > span > p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.upDownIcon {
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+}
+
+.trimInfoDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1040px;
+}
+
+.trimInfoDiv > span {
+    margin-top: 30px;
+    width: 50%;
+    max-height: 430px;
+    overflow-y: auto;
+    display: block;
+    gap: 30px;
+}
+
+/* 스크롤바 전체 */
+.trimInfoDiv > span::-webkit-scrollbar {
+    width: 8px; /* 너비 */
+}
+
+/* 스크롤바 트랙 */
+.trimInfoDiv > span::-webkit-scrollbar-track {
+    background: #00ff0000; /* 배경색 */
+}
+
+/* 스크롤바 핸들 */
+.trimInfoDiv > span::-webkit-scrollbar-thumb {
+    background-color: #bbb; /* 색상 */
+    border: 2px solid #f0f0f0; /* 핸들 주위의 여백 */
+}
+
+/* 스크롤바 핸들 호버 시 */
+.trimInfoDiv > span::-webkit-scrollbar-thumb:hover {
+    background-color: #b4b4b4; /* 호버 시 색상 */
+}
+
+.trimInfoDiv > span > span {
+    width: 90%;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.trimInfoDiv > span > span:last-child {
+    margin-bottom: 0px;
+}
+
+.trimInfoDiv > span > span.selected {
+    border: 1px solid #0064FF;
+    margin-top: 0;
+}
+
+.trimInfoDiv > span > span > p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #767676;
+    margin: 0;
+}
+
+.trimInfoDiv > span > span.selected > p {
+    color: #0064FF;
+    font-weight: 600;
+}
+
+.trimInfoDiv > span > span > img {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+
+.optionSelectDiv {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.optionSelectDiv > div {
+    position: relative;
+    min-width: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.optionSelectDiv > div.selected {
+    border: 1px solid #0064FF;
+    transition: all 0.5s ease;
+}
+
+.optionSelectDiv > div:hover {
+    transform: scale(1.02);
+}
+
+.optionSelectDiv > div > img {
+    width: 100%;
+}
+
+.optionSelectDiv > div > p {
+    width: 90%;
+    margin: auto;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.optionSelectDiv > div > h4 {
+    width: 90%;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+}

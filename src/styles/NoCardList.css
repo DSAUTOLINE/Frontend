@@ -1,0 +1,13 @@
+.noCardListDiv {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noCardListDiv > h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #dbdbdb;
+}

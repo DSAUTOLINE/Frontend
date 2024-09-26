@@ -1,0 +1,84 @@
+.mobile_logoListSection {
+    width: 100%;
+}
+
+.mobile_logoListSection > button {
+    margin: 20px 0px;
+    width: 50%;
+    height: 34px;
+    border: none;
+    background-color: transparent;
+    color: #767676;
+    border: 1px solid #bbb;
+    cursor: pointer;
+}
+
+.mobile_logoListSection > button.selected {
+    border: none;
+    background-color: #0064FF;
+    color: white;
+}
+
+.mobile_logoListSection > span:nth-of-type(1) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    /* IE와 Edge에서 스크롤바 숨기기 */
+    scrollbar-width: none;
+    /* Firefox에서 스크롤바 숨기기 */
+}
+
+/* 웹킷 브라우저에서 스크롤바 숨기기 */
+.mobile_logoListSection > span:nth-of-type(1)::-webkit-scrollbar {
+    display: none;
+}
+
+
+.mobile_logoListSection > span:nth-of-type(1) > div {
+    cursor: pointer;
+}
+
+.mobile_logoListSection > span:nth-of-type(1) > div > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+}
+
+.mobile_logoListSection > span:nth-of-type(1) > div > span > img {
+    transform: scale(0.6);
+}
+
+.mobile_logoListSection > span:nth-of-type(1) > div > p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #767676;
+    text-align: center;
+}
+
+.mobile_logoListSection > span:nth-of-type(1) > div.selected > span {
+    border: 1px solid #0064FF;
+}
+
+.mobile_logoListSection > span:nth-of-type(1) > div.selected > p {
+    color: #0064FF;
+    font-weight: 600;
+}
+
+.mobile_hotDeal_hotDealListSection > h4 {
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+}
